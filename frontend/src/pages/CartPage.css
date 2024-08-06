@@ -1,0 +1,125 @@
+/* Base styling for the cart page */
+.cart-page {
+  font-family: Arial, sans-serif; /* Clean and readable font */
+  color: #333; /* Dark text color for readability */
+  padding: 2rem; /* Padding around the page content */
+  background-color: #92bacc; /* Light background color for the page */
+}
+
+.cart-page h1 {
+  text-align: center; /* Center the page title */
+  font-size: 2.5rem; /* Larger font size for the title */
+  margin-bottom: 2rem; /* Space below the title */
+}
+
+/* Container for cart items */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Space between cart items */
+  max-width: 800px; /* Increase the width of the cart items container */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Styling for each cart item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #96b8ca; /* White background for the item */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  padding: 1.5rem; /* Increase padding inside the item */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.cart-item:hover {
+  transform: scale(1.02); /* Slightly enlarge item on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Styling for cart item images */
+.cart-item-image {
+  width: 150px; /* Increase the width for the images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+  margin-right: 1.5rem; /* Space to the right of the image */
+}
+
+/* Cart item details styling */
+.cart-item-details {
+  flex-grow: 1; /* Take up remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-details h2 {
+  font-size: 1.5rem; /* Increase font size for the item title */
+  margin: 0.5rem 0; /* Add margin around the item title */
+}
+
+.cart-item-details p {
+  font-size: 1.25rem; /* Increase font size for the item details */
+  margin: 0.5rem 0; /* Add margin around the item details */
+}
+
+/* Styling for the remove button */
+.cart-item-details button {
+  background-color: #e74c3c; /* Red background for button */
+  color: #fff; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 0.75rem 1.5rem; /* Increase padding inside button */
+  font-size: 1.25rem; /* Larger font size for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  align-self: flex-start; /* Align button to the start */
+  margin-top: 1rem; /* Increase space above the button */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.cart-item-details button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Styling for the payment section */
+.payment-section {
+  margin-top: 3rem;
+  background-color: #d2c6d4;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.payment-form input,
+.payment-form button {
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  border: 1px solid #deb2b2;
+  border-radius: 4px;
+}
+
+.payment-form button {
+  background-color: #27ae60;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+  background-color: #2ecc71;
+}
+
+.qr-code {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}

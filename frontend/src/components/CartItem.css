@@ -1,0 +1,14 @@
+.cart-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .cart-item button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  

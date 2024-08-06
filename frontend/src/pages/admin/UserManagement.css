@@ -1,0 +1,17 @@
+.user-management {
+    padding: 20px;
+  }
+  
+  .user-management ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-management ul li {
+    background-color: #cae0ed;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  

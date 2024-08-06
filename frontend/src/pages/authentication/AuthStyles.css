@@ -1,0 +1,102 @@
+/* src/pages/authentication/AuthStyles.css */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Optional background color */
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Gradient background */
+  }
+  
+  .auth-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Adjust width as needed */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .auth-form:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .auth-form h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .auth-form h2 {
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  .auth-form input {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .auth-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .auth-form button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-form p {
+    margin-top: 1rem;
+  }
+  
+  .auth-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-form a:hover {
+    text-decoration: underline;
+  }
+  
+  .terms-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .terms-container input {
+    margin-right: 0.5rem;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-bottom: 1rem;
+  }
+  
+  .login-container .auth-form {
+    background-color: #f8f9fa; /* Light color for login */
+  }
+  
+  .register-container .auth-form {
+    background-color: #fff3e0; /* Light color for registration */
+  }
+  

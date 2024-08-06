@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 60px); /* Adjust this value based on the footer height */
+  padding-bottom: 60px; /* Ensure there's space for the footer */
+}
+
+.footer {
+  background-color: #1491be;
+  color: #b4fe45;
+  padding: 0.5rem; /* Reduced padding */
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer div {
+  margin-top: 0.5rem; /* Reduced margin */
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}

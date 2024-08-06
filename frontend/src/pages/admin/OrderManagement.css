@@ -1,0 +1,35 @@
+/* src/pages/admin/OrderManagement.css */
+
+.order-management {
+    padding: 20px;
+  }
+  
+  .order-management h1 {
+    margin-bottom: 20px;
+  }
+  
+  .order-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .order-management table, .order-management th, .order-management td {
+    border: 1px solid #845e5e;
+  }
+  
+  .order-management th, .order-management td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .order-management th {
+    background-color: #ebcece;
+  }
+  
+  .order-management select {
+    padding: 5px;
+    border: 1px solid #f0cae7;
+    border-radius: 4px;
+  }
+  

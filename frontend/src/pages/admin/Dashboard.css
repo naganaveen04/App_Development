@@ -1,0 +1,12 @@
+/* src/pages/admin/Dashboard.css */
+
+.dashboard {
+    display: flex;
+  }
+  
+  .dashboard-content {
+    margin-left: 250px; /* Same width as sidebar */
+    padding: 20px;
+    width: calc(100% - 250px);
+  }
+  

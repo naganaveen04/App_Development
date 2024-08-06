@@ -1,0 +1,79 @@
+/* Profile container styling */
+.profile-container {
+  max-width: 100%; /* Increased max-width */
+  margin: 0 auto;
+  padding: 40px; /* Increased padding */
+  border: 2px solid #ccc; /* Increased border width */
+  border-radius: 10px; /* Increased border radius */
+  background-color: #b5d3f0; /* Changed background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow for better visual appeal */
+}
+
+/* Profile details styling */
+.profile-details {
+  margin-top: 30px; /* Increased margin-top */
+  font-size: 30px; /* Increased font size */
+  line-height: 1.6; /* Adjusted line height for better readability */
+}
+
+.profile-details p {
+  margin: 15px 0; /* Increased margin */
+}
+
+.profile-details strong {
+  display: inline-block;
+  width: 200px; /* Increased width */
+  font-weight: bold; /* Added bold font weight for better emphasis */
+}
+
+/* Cart items container styling */
+.cart-items {
+  margin-top: 30px; /* Margin for spacing between profile details and cart items */
+}
+
+/* Cart item card styling */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px; /* Padding for cart items */
+  border-radius: 8px; /* Border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for better visual appeal */
+  margin-bottom: 15px; /* Spacing between cart items */
+}
+
+/* Cart item image styling */
+.cart-item-image {
+  width: 100px; /* Fixed width for images */
+  height: 100px; /* Fixed height for images */
+  object-fit: cover; /* Ensures images fit within their container */
+  border-radius: 8px; /* Rounded corners for images */
+  margin-right: 15px; /* Margin between image and details */
+}
+
+/* Cart item details styling */
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-title {
+  font-size: 1.25rem; /* Font size for titles */
+  margin-bottom: 0.5rem; /* Margin below titles */
+}
+
+.cart-item-description {
+  font-size: 1rem; /* Font size for descriptions */
+  color: #555; /* Text color for descriptions */
+  margin-bottom: 0.5rem; /* Margin below descriptions */
+}
+
+.cart-item-price {
+  font-size: 1rem; /* Font size for prices */
+  color: #e67e22; /* Text color for prices */
+  margin-bottom: 0.5rem; /* Margin below prices */
+}
+
+.cart-item-quantity {
+  font-size: 1rem; /* Font size for quantity */
+  color: #333; /* Text color for quantity */
+}
